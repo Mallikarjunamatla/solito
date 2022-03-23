@@ -1,0 +1,66 @@
+.box {
+  display: flex !important;
+  margin: 0.5% !important;
+  margin-right: 1% !important;
+}
+.image {
+  cursor: pointer !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain!important;
+  /* max-height: 300px !important; */
+}
+.boximage {
+  width: 279px !important;
+  height: 150px !important;
+}
+.alert__message{
+  font-family : 'Montserrat' !important;
+  border-radius : 10px !important;
+  box-shadow : 1px 1px 1px 1px #d8d8d8 !important;
+  font-weight: 700 !important;
+}
+.boxgeo {
+  display: flex!important;
+  justify-content: space-between!important;
+  align-items: center!important;
+}
+.boxminigeo {
+  display: none!important;
+}
+@media screen and (max-width: 768px) {
+  .image {
+    cursor: pointer !important;
+    width: 100% !important;
+  }
+  .boximage {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .geohide {
+    display: none!important;
+  }
+  .boxminigeo {
+    display: block!important;
+  }
+  .boxgeo {
+    justify-content: flex-end!important;
+    align-items: center!important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* .geohide{
+    display: block!important;
+  }
+  .boxminigeo{
+    display: none!important;
+  } */
+  .boxgeo {
+    justify-content: flex-end!important;
+    align-items: center!important;
+  }
+  .boximage {
+    width: 250px!important;
+    height: 250px!important;
+  }
+}

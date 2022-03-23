@@ -1,0 +1,28 @@
+.cta__container {
+    width: 100% !important;
+    margin: 30px auto !important;
+    font-family: 'Montserrat' !important;
+}
+
+.cta__heading {
+    font-size: 1.8rem !important;
+    font-weight: 900 !important;
+    text-align: center !important;
+    margin: 0 !important;
+    font-family: 'Montserrat' !important;
+}
+
+.cta__info {
+    font-size: 1rem !important;
+    text-align: center !important;
+    margin: 1.2rem 0 !important;
+    font-family: 'Montserrat' !important;
+}
+
+
+@media (min-width: 768px) {
+    .cta__heading {
+        font-size: 2.5rem !important;
+    }
+
+}

@@ -1,0 +1,70 @@
+.testimonial__section {
+    width: 100% !important;
+    background-color: var(--primary-color) !important;
+    padding: 50px 0 !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.testimonial__container {
+    position: relative !important;
+    width: 100% !important;
+    min-height: 400px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+
+.testimonial__hook__container {
+    width: 100% !important;
+    margin: 2% auto 0 !important;
+    color: white !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.testimonial__hook__line {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center !important;
+    font-size: 1.3rem !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.testimonial__subhook {
+    color: white !important;
+    font-size: 1rem !important;
+    text-align: center !important;
+    margin: 0 !important;
+    font-family: 'Montserrat' !important;
+}
+
+@media screen and (min-width: 768px) {
+
+    .testimonial__hook__container {
+    width: 80% !important;
+}
+
+    .testimonial__hook__line {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .testimonial__hook__container {
+    width: 60% !important;
+}
+
+    .testimonial__hook__line {
+        font-size: 1.8rem !important;
+        
+    }
+}
+
+
+

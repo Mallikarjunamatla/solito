@@ -1,0 +1,38 @@
+.qintro {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 500 !important;
+  font-style: italic !important;
+  
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+}
+.qsuggestions {
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 500 !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+  max-height: 50px !important;
+  overflow-y: scroll !important;
+
+}
+.qinactive{
+  font-family: "Montserrat" !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+}

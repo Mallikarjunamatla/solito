@@ -1,0 +1,25 @@
+.cardmedia {
+  cursor: pointer !important;
+  margin-left: 20px !important;
+}
+.fav {
+  width: 34px !important;
+  height: 34px !important;
+}
+.fav2 {
+  width: 34px !important;
+  height: 34px !important;
+  opacity: 0.5 !important;
+}
+@media screen and (min-width: 768px) {
+  .cardmedia {
+    cursor: pointer !important;
+    margin-left: 91px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fav {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}

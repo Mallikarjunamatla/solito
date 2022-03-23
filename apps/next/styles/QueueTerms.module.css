@@ -1,0 +1,30 @@
+.dialogcontent {
+  width: "250px" !important;
+  font: "Montserrat" !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  height: "250px" !important;
+  word-wrap: "break-word" !important;
+  word-break: "keep-all" !important;
+  overflow: auto !important;
+}
+.termsbox {
+  display: flex !important;
+  flex-direction: column !important;
+  font: "Montserrat" !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  align-items: flex-start !important;
+  margin-top : 10px !important;
+}
+.readmore {
+  font: "Montserrat" !important;
+  font-size: 13px !important;
+  text-transform: none !important;
+}
+.accept{
+  font: "Montserrat" !important;
+  font-size: 12px !important;
+  margin-top: -20px !important;
+ 
+}

@@ -1,0 +1,31 @@
+.testimonial__card__container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    padding: 3% 10% 3% 8% !important;
+    background-color: white !important;
+    margin: 70px 0 !important;
+    border-radius: 10px !important;
+    min-height: 300px !important;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2) !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.testimonial__owner__name {
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    color: var(--primary-color) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.testimonial__owner__position {
+    font-size: 1rem !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Montserrat' !important;
+}

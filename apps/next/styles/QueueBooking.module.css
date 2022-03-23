@@ -1,0 +1,19 @@
+.intro {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  margin-top: 16px !important;
+  /* background-color:  #000000!important; */
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-top: 0px !important;
+  }
+}

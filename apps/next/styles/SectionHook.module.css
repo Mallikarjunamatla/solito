@@ -1,0 +1,37 @@
+.hook__container {
+    width: 100% !important;
+    margin: 2% auto 0 !important;
+    font-family: 'Montserrat' !important;
+}
+
+.hook__line {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center !important;
+    font-size: 1.3rem !important;
+    font-family: 'Montserrat' !important;
+}
+
+@media screen and (min-width: 768px) {
+
+    .hook__container {
+    width: 80% !important;
+}
+
+    .hook__line {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hook__container {
+    width: 60% !important;
+}
+
+    .hook__line {
+        font-size: 1.8rem !important;
+        
+    }
+}
+
+

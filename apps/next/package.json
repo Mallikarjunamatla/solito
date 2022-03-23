@@ -1,0 +1,37 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
+    "@emotion/cache": "^11.5.0",
+    "@emotion/eslint-plugin": "^11.5.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@expo/next-adapter": "^3.1.20",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.0.4",
+    "app": "*",
+    "file-saver": "^2.0.5",
+    "fs": "^0.0.1-security",
+    "ical-generator": "^3.4.0",
+    "moment": "^2.29.1",
+    "next": "12.1.0",
+    "raf": "^3.4.1",
+    "react-localization": "^1.0.18"
+  },
+  "devDependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@types/node": "17.0.21",
+    "eslint-config-next": "^12.1.0",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^9.0.0"
+  }
+}

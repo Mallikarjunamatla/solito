@@ -1,0 +1,326 @@
+.mybooking {
+  font-family: "Montserrat" !important;
+  background-color: #d8d8d8 !important;
+  border-color: #979797 !important;
+  border-width: 1px !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  width: fit-content !important;
+  height: 29px !important;
+  cursor: pointer !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: 0.4097561px !important;
+  color: #000 !important;
+  word-wrap: break-word !important;
+  border-color: #979797 !important;
+  text-transform: none !important;
+}
+.mybooking:hover {
+  /* background-color: #fff  !important; */
+}
+.image__container {
+}
+.img {
+  width: "10px" !important;
+  height: "10px" !important;
+}
+.c_content {
+  /* padding: 0px !important; */
+  /* height: 150px !important; */
+  justify-content: space-between !important;
+  /* background-color: yellow; */
+}
+.c_content2 {
+ 
+  /* padding: 0px !important; */
+  padding-left:  8%;
+  padding-right: 0% !important;
+}
+.card_token {
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: #d8d8d8 !important;
+  align-items: flex-start !important;
+  padding: 12px !important;
+  margin-bottom: 20px !important;
+  /* box-shadow: 0 8px 8px 8px rgba(0,0,0,.2), 0 8px 8px 0 rgba(0,0,0,.14), 0 8px 8px 0 rgba(0,0,0,.12) !important; */
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 10px 10px 6px -20px #777, 0px 10px 6px -6px #777,
+    0px 10px 6px -6px #777;
+  /* transform: translate3d(0,0,0);
+    transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1); */
+}
+.card_token2 {
+  position: absolute !important;
+  z-index: -9999 !important;
+  /* margin-bottom: 12px !important; */
+  background-color: #7747ef !important;
+  top: 0% !important;
+  left: 1% !important;
+  border-radius: 16px !important;
+ 
+}
+
+.mybookinglink {
+  text-decoration: none !important;
+  color: #000 !important;
+}
+.cancel {
+  font-family: "Montserrat" !important;
+  background-color: #d8d8d8 !important;
+  border-color: #979797 !important;
+  border-width: 1px !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  width: fit-content !important;
+  height: 29px !important;
+  cursor: pointer !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: 0.4097561px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+  background-color: #d8d8d8 !important;
+  border-color: #979797 !important;
+}
+.cancel2 {
+  font-family: "Montserrat" !important;
+  background-color: #d8d8d8 !important;
+  border-color: #979797 !important;
+  border-width: 1px !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  width: fit-content !important;
+  height: 29px !important;
+  cursor: pointer !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: 0.4097561px !important;
+  color: #fff !important;
+  word-wrap: break-word !important;
+  background-color: #000 !important;
+  border-color: #979797 !important;
+}
+.interaction {
+  display: flex !important;
+  flex-direction: row !important;
+  padding-left: 14px !important;
+  justify-content: space-between !important;
+  align-items: flex-end !important;
+  margin-top: 10px !important;
+}
+
+.managebooking {
+  font-family: "Montserrat" !important;
+  border-color: #979797 !important;
+  border-width: 1px !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  width: 200px !important;
+  height: 40px !important;
+  cursor: pointer !important;
+  align-items: center !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: 0.4097561px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+  background-color: #d8d8d8 !important;
+  border-color: #979797 !important;
+  text-transform: none !important;
+}
+.cancel:hover {
+  /* background-color: #fff !important; */
+}
+.arrowback {
+  cursor: pointer !important;
+}
+.qinactive {
+  font-family: "Montserrat" !important;
+  text-align: center !important;
+  vertical-align: top !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+  background-color: #d8d8d8 !important;
+  margin-bottom: 5px !important;
+}
+.qtitle {
+  font-family: "Montserrat" !important;
+  text-align: center !important;
+  vertical-align: top !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  font-weight: 700 !important;
+  word-wrap: break-word !important;
+  font-size: 14px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  word-wrap: break-word !important;
+  margin-bottom: 5px !important;
+}
+.slot {
+  font-family: "Montserrat" !important;
+  text-align: center !important;
+  vertical-align: top !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+  font-size: 14px !important;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px !important;
+}
+.icons {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: flex-end !important;
+}
+.timeZone {
+  font-family: "Montserrat" !important;
+  text-align: center !important;
+  vertical-align: top !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  word-wrap: break-word !important;
+  font-size: 12px !important;
+  justify-content: center !important;
+  align-items: center;
+  text-align: center;
+}
+.qrimage {
+  cursor: pointer !important;
+  /* margin-bottom: 5px !important; */
+  /* width: 160px !important;
+  height: 160px !important; */
+}
+.diacontent {
+  display: flex !important;
+  flex-direction: column !important;
+  width: 300px !important;
+  overflow-wrap: break-word !important;
+  padding: 0px !important;
+  margin-bottom: 5px !important;
+}
+.boxmain {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  overflow-wrap: break-word !important;
+  margin-bottom: 5px !important;
+  padding-top: 2px !important;
+}
+.dia {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  margin-bottom: 5px !important;
+}
+.slotdiv {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: baseline !important;
+  margin-bottom: 5px !important;
+}
+.action {
+  padding-bottom: 20px !important;
+  margin-bottom: 5px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+.icon {
+  color: #512da8 !important;
+}
+.ical {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  display: flex !important;
+  text-decoration: underline !important;
+  align-items: center !important;
+  cursor: pointer !important;
+}
+.reposition {
+  display: block !important;
+  padding-top: 10px !important;
+
+  /* padding-left: 10px !important; */
+  /* padding-top: 10px !important; */
+}
+.boldtitle {
+  font-family: "Montserrat" !important;
+  font-weight: bolder !important;
+}
+.reposition2 {
+  display: none !important;
+}
+.avatar {
+  background-color: #d8d8d8 !important;
+  color: #000 !important;
+  align-items: center !important;
+  border: 1px solid #000 !important;
+  margin-right: 10px !important;
+}
+.icon_circle {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .interaction {
+    flex-direction: row !important;
+    margin-top: 10px !important;
+  }
+  .avatar {
+    width: 28px !important;
+    height: 28px !important;
+    margin-right: 8px !important;
+  }
+  .icon {
+    width: 20px !important;
+    height: 20px !important;
+    color: #512da8 !important;
+  }
+  .reposition {
+    display: none !important;
+    /* padding-top: 10px !important; */
+  }
+  .reposition2 {
+    align-items: center !important;
+    display: flex !important;
+    /* padding-top: 10px !important; */
+  }
+}

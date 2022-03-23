@@ -1,0 +1,25 @@
+.queuecaption {
+  font-family: "Montserrat" !important;
+  font-size: 20px !important;
+  height: 24px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6829268px !important;
+  color: #000000 !important;
+}
+.queueposition {
+  color: #000 !important;
+  display: inline-flex !important;
+  border-radius: 8px !important;
+  padding: 3px 10px !important;
+  vertical-align: middle !important;
+  font-weight: 400 !important;
+  font-size: 11px !important;
+}
+@media screen and (max-width: 768px) {
+  .queuecaption {
+    font-size: 15px !important;
+  }
+}

@@ -1,0 +1,32 @@
+.geo {
+  width: fit-content !important;
+  height: fit-content !important;
+  background-color: #d8d8d8 !important;
+  border: 1px solid #979797 !important;
+  border-radius: 8px !important;
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  font-weight: 400 !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  letter-spacing: 0.4780488px !important;
+  color: #000000 !important;
+  padding-left: 13px !important;
+  padding-right: 9px !important;
+  padding-top: 4px !important;
+  padding-bottom: 7px !important;
+  word-wrap: break-word  !important;
+  overflow-wrap: break-word !important;
+}
+@media screen and (max-width: 768px) {
+  .geo {
+    height: fit-content !important;
+    font-size: 12px!important;
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+  }
+}

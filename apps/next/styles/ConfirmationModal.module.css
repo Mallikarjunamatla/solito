@@ -1,0 +1,201 @@
+.service {
+  width: 500 !important;
+  max-width: "50%" !important;
+}
+.details {
+  width: 500 !important;
+  margin-top: "10px" !important;
+  max-width: "100%" !important;
+}
+.slot {
+  width: 500 !important;
+  max-width: "100%" !important;
+}
+.tableservice {
+  font-family: "Montserrat" !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+.tableslot {
+  font-family: "Montserrat" !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+}
+.tabledetails {
+  font-family: "Montserrat" !important;
+  border-collapse: collapse !important;
+  width: 100% !important;
+  margin-bottom: 10px !important;
+  /* background-color: red !important; */
+}
+.thservice {
+  padding-top: "5px" !important;
+  background-color: lightgray !important;
+}
+.thslot {
+  padding-top: "5px" !important;
+  background-color: lightgray !important;
+  font-weight: bold !important;
+}
+.thdetails {
+  padding-top: "5px" !important;
+  background-color: lightgray !important;
+}
+.tdserivce {
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+  padding: 6px !important;
+  border: 1px solid #d3d3d3 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.tdslot {
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+  padding: 6px !important;
+  border: 1px solid #d3d3d3 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.details td {
+  max-width: 300px !important;
+}
+td.tddetails1 {
+  width: 50% !important;
+}
+
+td.tddetails {
+  width: 50% !important;
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-align: left !important;
+  padding: 6px !important;
+  border: 1px solid #d3d3d3 !important;
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+}
+
+.thservice {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  padding: 6px !important;
+  border: 1px solid #d3d3d3 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.thslot {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  padding: 6px !important;
+  border: 1px solid #d3d3d3 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.thslotnextheader {
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  text-align: left !important;
+  padding: 6px !important;
+  border: 1px solid #d3d3d3 !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+.thdetails {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  padding: 6px !important;
+  border: 1px solid #d3d3d3 !important;
+  text-overflow: ellipsis !important;
+}
+.thdetailswithoutbg {
+  font-family: "Montserrat" !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  padding: 6px !important;
+  font-weight: 500 !important;
+  color: #000;
+}
+.dialogtitle {
+  font-family: "Montserrat" !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  .slot table,
+  .slot thead,
+  .slot tbody,
+  .slot th,
+  .slot td,
+  .slot tr {
+    display: block !important;
+  }
+  .slot thead tr {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+
+  .slot tr {
+    border: 1px solid #ccc !important;
+  }
+  .slot td {
+    /* Behave  like a "row" */
+    border: none !important;
+    border-bottom: 1px solid lightgray !important;
+    position: relative !important;
+    padding-left: 50% !important;
+    height: 20px !important;
+  }
+  .slot td:before {
+    /* Now like a table header */
+    content: attr(data-label) !important;
+
+    position: absolute !important;
+    /* Top/left values mimic padding */
+    top: 6px !important;
+    left: 6px !important;
+    width: 45% !important;
+    padding-right: 10px !important;
+  }
+  .details td {
+    max-width: 300px !important;
+  }
+  .details .tddetails1 {
+    max-width: 300px !important;
+    white-space: pre-wrap !important;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .details td {
+    max-width: 200px !important;
+  }
+  .details .tddetails1 {
+    max-width: 100px !important;
+    white-space: pre-wrap !important;
+  }
+}
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px) {
+  .details td {
+    max-width: 100px !important;
+    /* background-color: lawngreen !important; */
+  }
+  .details .tddetails1 {
+    max-width: 100px !important;
+    white-space: pre-wrap !important;
+  }
+}

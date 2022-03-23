@@ -1,0 +1,28 @@
+.workshow__section {
+    background-color: var(--secondary-color) !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+
+.workshow__card__container {
+    margin: 30px auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    font-family: 'Montserrat' !important;
+
+
+}
+
+.workshow__subhook {
+    text-align: center !important;
+    margin: 0 !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+@media screen and (max-width: 540px) {
+    .workshow__card__container {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}

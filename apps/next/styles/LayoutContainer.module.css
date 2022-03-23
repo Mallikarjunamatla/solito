@@ -1,0 +1,25 @@
+.layouts {
+    padding: 3% 10% !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+@media screen and (max-width: 1100px) {
+    .layouts {
+        padding: 3% 8% !important;
+    }
+}
+    
+@media screen and (max-width: 1000px) {
+    .layouts {
+        padding: 3% 5% !important;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .layouts {
+        padding: 3% 5% !important;
+    }
+}
+

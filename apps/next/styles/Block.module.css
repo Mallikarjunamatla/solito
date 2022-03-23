@@ -1,0 +1,13 @@
+.card {
+  border: none !important;
+  box-shadow: none !important;
+  overflow: unset !important;
+  position: unset !important;
+  width: 100% !important;
+}
+.cardbox {
+  padding: 3 !important;
+  min-height: 180 !important;
+  border: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,26 @@
+.cards__container {
+    margin: 4% auto !important;
+    padding: 0 auto !important;
+    display: grid !important;
+    justify-content: space-between !important;
+    grid-template-columns: repeat(3,1fr) !important;
+    grid-gap: 0 10px !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+@media  screen and (max-width: 850px) {
+    .cards__container {
+        grid-template-columns: repeat(2,1fr) !important;
+        
+    }
+}
+    
+
+@media  screen and (max-width: 600px) {
+    .cards__container {
+
+        grid-template-columns: repeat(1,1fr) !important;
+   
+    }
+}

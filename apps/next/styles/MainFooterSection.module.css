@@ -1,0 +1,14 @@
+.rootstyle {
+  display: flex !important;
+}
+.container {
+  margin-top: 5 !important;
+  display: flex !important;
+  flex-direction: column  !important;
+  justify-content: center !important;
+  align-items: center  !important;
+}
+.footercaption {
+  margin-left: 10px !important;
+  margin-bottom: 3px !important;
+}

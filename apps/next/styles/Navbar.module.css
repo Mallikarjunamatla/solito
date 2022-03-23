@@ -1,0 +1,258 @@
+.navbar {
+    background-color: #fff !important;
+    height: 80px !important;
+    width: 100 !important;
+    display: flex !important;
+    align-items:center !important;
+    padding: 1% 10% !important;
+    font-size:1rem !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 999 !important;
+    font-family: 'Montserrat' !important;
+}
+
+.navbar.scroll {
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.2) !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.nav__container {
+    width: 100% !important;
+    display: grid !important;
+    grid-template-columns: 27% 73% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.nav__logo {
+    cursor: pointer !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.nav__menu {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    font-family: 'Montserrat' !important;
+
+
+}
+
+.mobile__menu__icon {
+    display: none !important;
+    font-family: 'Montserrat' !important;
+}
+
+.nav__links {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin: 0 !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.nav__link {
+    padding: 3% 1rem !important;
+    font-weight: 500 !important;
+    align-items: flex-start !important;
+    justify-content:center !important;
+    font-family: 'Montserrat' !important;
+}
+
+
+
+.nav__link:hover, .nav__link:active, .nav__link:focus {
+    color: var(--primary-color) !important;
+}
+
+
+.drop__down {
+    cursor: pointer !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: 'Montserrat' !important;
+}
+.dropdown__menu {
+    position: absolute !important;
+    top: 40px !important;
+    left: 30px !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important;
+    min-width: 110px !important;
+    z-index: 10000 !important;
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    font-family: 'Montserrat' !important;
+}
+
+
+.dropdown__menu.clicked {
+    display: none !important;
+
+}
+
+.dropdown__link {
+    color: black !important;
+    font-weight: 500 !important;
+    padding: 10px 25px 10px 5px !important;
+    display:block !important;
+    align-items:center !important;
+    justify-content:center !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+
+
+.dropdown__link:hover, .dropdown__link:active, .dropdown__link:focus {
+    color: var(--primary-color) !important;
+    background-color: var(--secondary-color) !important;
+}
+.nav__buttons {
+    display: flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.auth__button {
+    font-family: 'Montserrat', 'sans-serif' !important;
+    padding: 7px 10px !important;
+    font-size: 1rem !important;
+    margin-right: 15px !important;
+    font-weight: 600 !important;
+    background-color: var(--secondary-color) !important;
+    border: none !important;
+    border-radius:3px !important;
+    outline: none !important;
+    cursor: pointer !important;
+    font-family: 'Montserrat' !important;
+
+
+}
+
+.auth__button:hover {
+    box-shadow: 0px 2px 4px rgba(230,220,220,0.75) !important;
+}
+
+.getStarted__button {
+    font-family: 'Montserrat', 'sans-serif' !important;
+    padding: 7px 10px !important;
+    font-size: 1rem !important;
+    color: white !important;
+    font-weight: 500 !important;
+    border-radius:3px !important;
+    background-color: var(--primary-color) !important;
+    border: none !important;   
+    cursor: pointer !important;
+    font-family: 'Montserrat' !important;
+
+}
+
+.getStarted__button:hover {
+    box-shadow: 0px 2px 4px rgba(117, 25, 160, 0.75) !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav__container {
+        grid-template-columns: 22% 78% !important;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .navbar {
+        padding: 1% 8% !important;
+    }
+
+    .nav__container {
+        grid-template-columns: 20% 80% !important;
+    }
+
+    .nav__link {
+        padding: 3% 0.8rem !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        padding: 1% 5% !important;
+    }
+
+    .nav__container {
+        grid-template-columns: 15% 85% !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .navbar {
+        padding: 3% 5% !important;
+    }
+
+    .mobile__menu__icon {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        font-size: 1.5rem !important;
+        cursor: pointer !important;
+    }
+
+    .nav__container {
+        grid-template-columns: 50% 50% !important;
+    }
+
+    .nav__menu {
+        display: none !important;
+    }
+
+    .nav__menu.active {
+        display: flex !important;
+        flex-direction: column !important;
+        position: fixed !important;
+        top: 80px !important;
+        left: 0 !important;
+        width: 100% !important;
+        display: flex !important;
+        max-height: 100vh !important;
+        background-color: var(--secondary-color) !important;
+        transition: 0.3s ease-in-out !important;
+        padding-bottom: 20px !important;
+    }
+
+    .nav__links {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .nav__link {
+        display: flex !important;
+        flex-direction: column !important;
+        margin: 0 3% !important;
+    }
+
+    .nav__buttons {
+    width: 100% !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    padding: 0 2% !important;
+    }
+
+    .auth__button {
+    background-color: #fff !important;
+    margin: 0 3% !important;
+    }
+
+    
+}
+
+ 

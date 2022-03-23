@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: url(/queuue.jp2) no-repeat left bottom / 50% auto;
+  /* background-color: red ; */
+}
+.MuiFormControl-root {
+  margin-bottom: 0% ;
+  align-items: baseline ;
+
+  padding: 0% ;
+  /* background-color: red; */
+  margin-top: 20px ;
+  border-color: lightgray ;
+}
+.MuiOutlinedInput-root {
+  align-items: baseline ;
+  border-color: lightgray ;
+  margin-bottom: 0% ;
+  padding: 0% ;
+  border: none ;
+  outline: none ;
+  /* background-color: red; */
+  height: 39px ;
+  /* margin-top: 5px ; */
+  font-family: "Montserrat" !important ;
+  font-size: 12px ;
+  text-align: left ;
+  vertical-align: top ;
+  font-weight: 500 ;
+  text-transform: none ;
+  letter-spacing: 0.2731707px ;
+  color: #000 ;
+  padding-top: 2px ;
+}
+
+
+
+.MuiInputLabel-outlined {
+  font-family: "Montserrat" !important ;
+  font-size: 12px ;
+  text-align: left ;
+  vertical-align: top ;
+  font-weight: bolder ;
+  text-transform: none ;
+  letter-spacing: 0.2731707px ;
+  border-color: lightgray ;
+  padding-top: 5px ;
+}
+
+.MuiTextField-root {
+  border-color: lightgray ;
+  /* background-color: rgb(4, 26, 7) ; */
+}
+.MuiTextField-root:hover fieldset {
+  border-color: lightgray ;
+  align-items: center ;
+}
+/* .MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiTextField-root {
+  height: 3px ;
+} */
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiSelect-root {
+  height: 45px ;
+  border-color: lightgray ;
+  /* background-color: rgba(201, 190, 189, 0.473) ; */
+}
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiSelect-root:hover
+  fieldset {
+  border-color: lightgray ;
+}
+
+.MuiSelect-select.MuiSelect-outlined.MuiOutlinedInput-input.MuiInputBase-input {
+  /* background-color: blue ; */
+  padding-left: 10px ;
+  font-family: "Montserrat";
+  font-weight: 500 ;
+  color: #000;
+  font-size: 12px;
+}
+
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-sizeSmall.MuiSelect-root {
+  height: 40px ;
+  border-color: lightgray ;
+}
+.MuiFormControl-root.MuiFormControl-fullWidth:hover fieldset {
+  border-color: lightgray ;
+  outline: none ;
+}
+.MuiInput-root.MuiInputBase-root.MuiInputBase-colorPrimary {
+  height: 39px;
+  font-size: 12px;
+  margin-top: 20px !important;
+  margin-left: 0px !important;
+}
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-sizeSmall.MuiSelect-root {
+margin-top: 20px;
+border-color: lightgray;
+}
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-sizeSmall.MuiSelect-root:hover fieldset {
+  border-color: lightgray;
+  }
+.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-sizeSmall.MuiInputLabel-outlined.MuiFormLabel-root.MuiFormLabel-colorPrimary.MuiFormLabel-filled{
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  color: darkgray !important;
+  margin-top: 3px !important;
+  font-weight: bolder !important;
+}
+.MuiOutlinedInput-notchedOutline{
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+}
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-sizeSmall {
+  font-family: "Montserrat" !important;
+  font-size: 12px !important;
+  margin-top: 3px !important;
+}
+table {
+  font-family : "Montserrat";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td{
+  font-family : "Montserrat";
+  font-size : 12px;
+  font-weight : 500;
+  text-align: left;
+  padding: 6px;
+  border : 1px solid #D3D3D3;
+  overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+th {
+  font-family : "Montserrat";
+  font-size : 14px;
+  text-align: left;
+  padding: 6px;
+  border : 1px solid #D3D3D3;
+  overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+hr{
+  border-bottom: 1px solid lightgray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.PrivatePickersToolbar-root{
+}
+.PrivatePickersToolbar-dateTitleContainer .MuiTypography-root{
+  font-family: 'Montserrat';
+}
+.PrivatePickersToolbar-root .MuiTypography-root.MuiTypography-overline{
+  font-family: 'Montserrat' !important;
+}
+.MuiCalendarPicker-root{
+  font-family: 'Montserrat' !important;
+}
+.MuiButtonBase-root.MuiPickersDay-root.MuiPickersDay-dayWithMargin {
+  font-family: 'Montserrat';
+}
+.MuiTypography-root.MuiTypography-caption {
+  font-family: 'Montserrat' !important;
+}
+.PrivatePickersFadeTransitionGroup-root {
+  font-family: 'Montserrat' !important;
+}
+/* .MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButtonBase-root {
+  font-family: "Montserrat" !important;
+  border-color: #979797  !important;
+  border-width: 1px  !important;
+  border-radius: 8px  !important;
+  text-transform: none  !important;
+  width: fit-content  !important;
+  cursor: pointer  !important;
+  align-items: center  !important;
+  text-decoration: none  !important;
+  font-size: 12px  !important;
+  text-align: left  !important;
+  vertical-align: top  !important;
+  font-weight: 700  !important;
+  text-transform: none  !important;
+  letter-spacing: 0.4097561px  !important;
+  color: #000000  !important;
+  word-wrap: break-word  !important;
+  border-color: #979797  !important;
+} */
+.MuiTypography-root.MuiTypography-h6.MuiDialogTitle-root{
+  font-family: "Montserrat" !important;
+}
+.MuiDialogContentText-root.MuiTypography-root.MuiTypography-body1{
+  font-family: "Montserrat" !important;
+}
+.PrivatePickersYear-yearButton{
+  font-family: "Montserrat" !important;
+}
+.MuiPaper-root.MuiAccordion-root:disabled {
+  background-color: none !important;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm {
+ max-width: 800px !important;
+}
+ /* max-width: calc(100%-10px) !important; */
+ /* max-width: calc(100% -0%) !important;
+/* @media screen and (max-width : 768px){
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation24.MuiDialog-paper.MuiDialog-paperScrollPaper.MuiDialog-paperWidthSm {
+    width: 100% !important;
+    max-width: 100% !important;
+    /* max-width: calc(100%-10px) !important; */
+    /* max-width: calc(100% -0%) !important; */
+   
+
+
+    :root {
+      --primary-color: #512da8  !important;
+      --secondary-color: #dcdcdc !important;
+    }
+    
+    html,
+    body {
+      padding: 0 !important;
+      margin: 0 !important;
+      font-family: 'Montserrat', sans-serif !important;
+      font-weight: 500 !important;
+    }
+    
+    a {
+      color: inherit !important;
+      text-decoration: none !important;
+    }
+    
+    * {
+      box-sizing: border-box !important;
+    }
+    
+    ul {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    
+    
+    li {
+      display:inherit !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .MuiOutlinedInput-input.MuiInputBase-input.MuiInputBase-inputSizeSmall{
+      margin-top: 10px !important;
+    }
+    .MuiSelect-select.MuiSelect-outlined.MuiOutlinedInput-input.MuiInputBase-input.MuiInputBase-inputSizeSmall{
+      margin-top: 3px !important;
+
+    }
+    .MuiSvgIcon-root{
+      margin-right: 0px !important;
+    }

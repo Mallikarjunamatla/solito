@@ -1,0 +1,15 @@
+.dayCollapseButton {
+  background-color: #d8d8d8 !important;
+  color: black !important;
+  height: 40px !important;
+  text-align: left !important;
+  width: 100% !important;
+}
+
+.slotListOutline {
+  margin: 5px !important;
+}
+
+.openCollapsePadding {
+  padding: "7.5px" !important;
+}

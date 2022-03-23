@@ -1,0 +1,49 @@
+.arrowback {
+  cursor: pointer !important;
+  width: 27px !important;
+  height: 24px !important;
+}
+.box__back{
+  display:  flex !important;
+  margin-bottom: 41px !important;
+  align-items: center !important;
+}
+.body2 {
+  display: flex !important;
+  margin-left: 15%  !important;
+  width: 80%  !important;
+  justify-content: flex-end  !important;
+}
+.faq {
+  font-family: 'Montserrat' !important;
+  font-size: 12px !important;
+  text-align: left  !important;
+  vertical-align: top  !important;
+  font-weight: 700  !important;
+  text-transform: none  !important;
+  letter-spacing: 0.4097561px  !important;
+  color: #fff  !important;
+  word-wrap: break-word  !important;
+  background-color: #512DA8  !important;
+  border-color: #979797  !important;
+  border-width: 1px  !important;
+  border-radius: 8px  !important;
+  width: fit-content  !important;
+  height: 29px  !important;
+  cursor: pointer  !important;
+  align-items: center  !important;
+  margin-left: 15px  !important;
+}
+
+.faqlink {
+  font-family: "Montserrat"  !important;
+  text-decoration: none  !important;
+  font-size: 12px  !important;
+  text-align: left  !important;
+  vertical-align: top  !important;
+  font-weight: 700  !important;
+  text-transform: none  !important;
+  letter-spacing: 0.4097561px  !important;
+  color: #fff  !important;
+  word-wrap: break-word  !important;
+}

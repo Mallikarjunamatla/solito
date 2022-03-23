@@ -1,0 +1,102 @@
+.grid_container{
+    display: flex !important;
+    flex-direction: row !important;
+    margin : 3% 8% !important;
+    padding: 3% !important;
+    align-items : center !important;
+    background-color : #43257F !important;
+    justify-content: center !important;
+}
+.grid_container2{
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 3% !important;
+    align-items : center !important;
+    background-color : #43257F !important;
+    justify-content: flex-start !important;
+}
+.grid_item_typo{
+    display: flex !important;
+    flex-direction: column !important;
+    font-family:  'Montserrat' !important;
+    font-size: 34px !important;
+    flex-direction: row !important;
+    font-weight : bolder !important;
+    align-items: center !important;
+    margin-right: 10px !important;
+}
+.discover{
+   display: flex !important;
+   align-items: center !important;
+    font-family:  'Montserrat' !important;
+    font-size: 34px !important;
+    flex-direction: row !important;
+    font-weight : bolder !important;
+    align-items: center !important;
+    /* margin-right: 10px !important; */
+}
+.AddLocationAlt{
+    width: 100px !important;
+    height: 100px !important;
+    margin-bottom: 40px !important;
+}
+.find{
+    /* width : 150px !important; */
+    background-color: #d8d8d8 !important;
+    color: #000 !important;
+    font-family: 'Montserrat' !important;
+   /* margin-top: 10px !important; */
+    text-transform: none !important;
+    margin: 10px 12px !important;
+}
+.find2{
+    /* width : 150px !important; */
+    background-color: #d8d8d8 !important;
+    color: #000 !important;
+    font-family: 'Montserrat' !important;
+   /* margin-top: 10px !important; */
+    text-transform: none !important;
+    margin-top: 25px !important;
+    width: 100% !important;
+    font-weight: 700 !important;
+    /* padding-right: 100px !important; */
+}
+
+
+@media screen and (max-width : 768px) {
+    .grid_container{
+        display : flex !important;
+        flex-direction : row !important;
+        align-items :center !important;
+        margin : 3% 5% !important;
+
+    }
+    .grid_item{
+        width : 100% !important;
+        /* margin-top : 10px  !important; */
+    }
+    .discover{
+        font-size: 20px !important;
+    }
+    .grid_item_typo{
+        display: flex !important;
+        flex-direction: column !important;
+        font-size: 18px !important;
+        align-items: center !important;
+    }
+    .AddLocationAlt{
+        width: 34px !important;
+        height: 34px !important;
+        padding-bottom: 3px !important;
+        margin-bottom: 0px !important;
+    }
+    .find{
+        font-size: 15px !important;
+         width: fit-contentz !important;
+         height: 25px !important;
+        margin: 33px 12px !important;
+
+    }
+   
+}
+
